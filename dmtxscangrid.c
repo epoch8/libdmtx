@@ -42,7 +42,7 @@ InitScanGrid(DmtxDecode *dec)
    yExtent = grid.yMax - grid.yMin;
    maxExtent = (xExtent > yExtent) ? xExtent : yExtent;
 
-   assert(maxExtent > 1);
+   //assert(maxExtent > 1);
 
    for(extent = 1; extent < maxExtent; extent = ((extent + 1) * 2) - 1)
       if(extent <= smallestFeature)
@@ -126,7 +126,7 @@ GetGridCoordinates(DmtxScanGrid *grid, DmtxPixelLoc *locPtr)
 
    count = grid->pixelCount;
 
-   assert(count < grid->pixelTotal);
+   //assert(count < grid->pixelTotal);
 
    if(count == grid->pixelTotal - 1) {
       /* center pixel */

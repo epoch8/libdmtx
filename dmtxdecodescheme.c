@@ -249,18 +249,18 @@ DecodeSchemeAscii(DmtxMessage *msg, unsigned char *ptr, unsigned char *dataEnd)
          PushOutputWord(msg, digits - (digits/10)*10 + '0');
       }
       else if(codeword == DmtxValueFNC1) {
-        //  if(msg->fnc1 != DmtxUndefined) {
-        //      int pushword = msg->fnc1;
-        //      if (ValidOutputWord(pushword) != DmtxTrue)
-        //         return NULL;
-        //      PushOutputWord(msg, pushword);
-        //  }
-        PushOutputWord(msg, (char)'{');
-        PushOutputWord(msg, (char)'F');
-        PushOutputWord(msg, (char)'N');
-        PushOutputWord(msg, (char)'C');
-        PushOutputWord(msg, (char)'1');
-        PushOutputWord(msg, (char)'}');
+          //  if(msg->fnc1 != DmtxUndefined) {
+          //      int pushword = msg->fnc1;
+          //      if (ValidOutputWord(pushword) != DmtxTrue)
+          //         return NULL;
+          //      PushOutputWord(msg, pushword);
+          //  }
+          PushOutputWord(msg, (char)'{');
+          PushOutputWord(msg, (char)'F');
+          PushOutputWord(msg, (char)'N');
+          PushOutputWord(msg, (char)'C');
+          PushOutputWord(msg, (char)'1');
+          PushOutputWord(msg, (char)'}');
       }
    }
 
@@ -335,15 +335,15 @@ DecodeSchemeC40Text(DmtxMessage *msg, unsigned char *ptr, unsigned char *dataEnd
                PushOutputC40TextWord(msg, &state, c40Values[i] + 69); /* ASCII 91 - 95 */
             }
             else if(c40Values[i] == 27) {
-            //    if(msg->fnc1 != DmtxUndefined) {
-            //         PushOutputC40TextWord(msg, &state, msg->fnc1);
-                PushOutputC40TextWord(msg, &state, (char)('{'));
-                PushOutputC40TextWord(msg, &state, (char)('F'));
-                PushOutputC40TextWord(msg, &state, (char)('N'));
-                PushOutputC40TextWord(msg, &state, (char)('C'));
-                PushOutputC40TextWord(msg, &state, (char)('1'));
-                PushOutputC40TextWord(msg, &state, (char)('}'));
-            //    }
+                //    if(msg->fnc1 != DmtxUndefined) {
+                //         PushOutputC40TextWord(msg, &state, msg->fnc1);
+                    PushOutputC40TextWord(msg, &state, (char)('{'));
+                    PushOutputC40TextWord(msg, &state, (char)('F'));
+                    PushOutputC40TextWord(msg, &state, (char)('N'));
+                    PushOutputC40TextWord(msg, &state, (char)('C'));
+                    PushOutputC40TextWord(msg, &state, (char)('1'));
+                    PushOutputC40TextWord(msg, &state, (char)('}'));
+                //    }
             }
             else if(c40Values[i] == 30) {
                state.upperShift = DmtxTrue;

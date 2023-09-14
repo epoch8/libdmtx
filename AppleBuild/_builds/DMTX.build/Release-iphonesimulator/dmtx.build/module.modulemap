@@ -1,0 +1,4 @@
+framework module DMTX {
+    header "dmtx.h"
+    export *
+}

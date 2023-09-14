@@ -1,0 +1,4 @@
+/Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/dmtx.dir
+/Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/install.dir
+/Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/ALL_BUILD.dir
+/Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/ZERO_CHECK.dir

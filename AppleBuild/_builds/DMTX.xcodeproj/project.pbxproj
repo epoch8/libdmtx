@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		15DAB17796C54D529031D07D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 81B563BC60284D62A4799702 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				85C92A4CED6C280526453D72 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		8DE87F8B424C40C8A7695B4D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F1B729B09C7401FA6D4BE3E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				24C3E658AF62407D8CCBF01D /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		BD7369F05B0441959044951F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E646CD6983684CEC8EBEA3CF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E24A569A4DB5F1FB366D93C4 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				9F194626D9FC4E6096CAD579 /* PBXTargetDependency */,
+				03013BFF41DD4A23B3103526 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2554979C9D454CF1BFDCA8EE /* /Users/akor/Work/E8/git_repos/libdmtx/dmtx.c */ = {isa = PBXBuildFile; fileRef = 8F09A379D35E4AB6BDC801FD /* /Users/akor/Work/E8/git_repos/libdmtx/dmtx.c */; };
+		9C3F14C4D9804F578ADDD936 /* /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/dmtx.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = E82F8CA041714E0FA5AB3677 /* /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/dmtx.dir/Info.plist */; };
+		BA772C2C1B524D9B927B75DC /* /Users/akor/Work/E8/git_repos/libdmtx/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 87F15D74F95E49A89DF9E120 /* /Users/akor/Work/E8/git_repos/libdmtx/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		861BF77404F44AE09F39DC6F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A2AAD68AC2674A6FA3DA8BD5 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B3E428D54F5B427590714EF2 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		EACD551115A54C9A935F14D9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0DF696B54AA54AF6911EA88C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2152DDDBFDE4F4D95E89EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD7369F05B0441959044951F;
+			remoteInfo = ALL_BUILD;
+		};
+		1B5674DF4E924516AB65B2D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2152DDDBFDE4F4D95E89EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DAB17796C54D529031D07D;
+			remoteInfo = ZERO_CHECK;
+		};
+		6E0D468FCF6C42C3B9FB4D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2152DDDBFDE4F4D95E89EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DAB17796C54D529031D07D;
+			remoteInfo = ZERO_CHECK;
+		};
+		D8EBB68642724A758717D6CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2152DDDBFDE4F4D95E89EF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3CE84AEE75349F6B916BDFB;
+			remoteInfo = dmtx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25D248D3C7A041FD85BBCE59 /* /Users/akor/Work/E8/git_repos/libdmtx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		87F15D74F95E49A89DF9E120 /* /Users/akor/Work/E8/git_repos/libdmtx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8F09A379D35E4AB6BDC801FD /* /Users/akor/Work/E8/git_repos/libdmtx/dmtx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dmtx.c; path = dmtx.c; sourceTree = SOURCE_ROOT; };
+		B2E4C4FA6FCB4C858EB540B3 /* dmtx */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = dmtx.framework/dmtx; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82F8CA041714E0FA5AB3677 /* /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/dmtx.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = AppleBuild/_builds/CMakeFiles/dmtx.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A31B5FD049F45558A0A1E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F71CEE3D0A44A3DA53DB57F = {
+			isa = PBXGroup;
+			children = (
+				A7026B3D4B3E46B99B80B0F6 /* dmtx */,
+				F48961D34DC546218EF0C402 /* ALL_BUILD */,
+				4423706A753843DB9CD9006A /* Products */,
+				43FFBF2209B54CA2926B8512 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		200802C93DCD48809D1ADE3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E82F8CA041714E0FA5AB3677 /* /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/dmtx.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		43FFBF2209B54CA2926B8512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4423706A753843DB9CD9006A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E4C4FA6FCB4C858EB540B3 /* dmtx */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7026B3D4B3E46B99B80B0F6 /* dmtx */ = {
+			isa = PBXGroup;
+			children = (
+				DFF5F427CE7349EB925EF79D /* Source Files */,
+				200802C93DCD48809D1ADE3E /* Resources */,
+				87F15D74F95E49A89DF9E120 /* /Users/akor/Work/E8/git_repos/libdmtx/CMakeLists.txt */,
+			);
+			name = dmtx;
+			sourceTree = "<group>";
+		};
+		D0724D1B561A429894438E46 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DFF5F427CE7349EB925EF79D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F09A379D35E4AB6BDC801FD /* /Users/akor/Work/E8/git_repos/libdmtx/dmtx.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F48961D34DC546218EF0C402 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D0724D1B561A429894438E46 /* CMake Rules */,
+				25D248D3C7A041FD85BBCE59 /* /Users/akor/Work/E8/git_repos/libdmtx/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3CE84AEE75349F6B916BDFB /* dmtx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2200CA43053C4D28BBDF0C77 /* Build configuration list for PBXNativeTarget "dmtx" */;
+			buildPhases = (
+				76D90E44D9064632AD714975 /* Sources */,
+				5A31B5FD049F45558A0A1E9A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338DE3351A3D4EFBB9FB6E71 /* PBXTargetDependency */,
+			);
+			name = dmtx;
+			productName = dmtx;
+			productReference = B2E4C4FA6FCB4C858EB540B3 /* dmtx */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2152DDDBFDE4F4D95E89EF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 87BC1E1468244982BB73E983 /* Build configuration list for PBXProject "DMTX" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				EACD551115A54C9A935F14D9 /* Debug */,
+				B3E428D54F5B427590714EF2 /* Release */,
+				861BF77404F44AE09F39DC6F /* MinSizeRel */,
+				A2AAD68AC2674A6FA3DA8BD5 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 0F71CEE3D0A44A3DA53DB57F;
+			projectDirPath = /Users/akor/Work/E8/git_repos/libdmtx;
+			projectRoot = "";
+			targets = (
+				BD7369F05B0441959044951F /* ALL_BUILD */,
+				15DAB17796C54D529031D07D /* ZERO_CHECK */,
+				C3CE84AEE75349F6B916BDFB /* dmtx */,
+				8DE87F8B424C40C8A7695B4D /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		85C92A4CED6C280526453D72 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  make -f /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  make -f /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  make -f /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  make -f /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E24A569A4DB5F1FB366D93C4 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76D90E44D9064632AD714975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2554979C9D454CF1BFDCA8EE /* /Users/akor/Work/E8/git_repos/libdmtx/dmtx.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03013BFF41DD4A23B3103526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DAB17796C54D529031D07D /* ZERO_CHECK */;
+			targetProxy = 1B5674DF4E924516AB65B2D7 /* PBXContainerItemProxy */;
+		};
+		24C3E658AF62407D8CCBF01D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD7369F05B0441959044951F /* ALL_BUILD */;
+			targetProxy = 0DF696B54AA54AF6911EA88C /* PBXContainerItemProxy */;
+		};
+		338DE3351A3D4EFBB9FB6E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DAB17796C54D529031D07D /* ZERO_CHECK */;
+			targetProxy = 6E0D468FCF6C42C3B9FB4D87 /* PBXContainerItemProxy */;
+		};
+		9F194626D9FC4E6096CAD579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3CE84AEE75349F6B916BDFB /* dmtx */;
+			targetProxy = D8EBB68642724A758717D6CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00DD973DC81B4B2EBE88B93F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2989F1614B274BDABE4FE728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (arm64,x86_64);
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 0.7.7;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = C;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",dmtx_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/dmtx.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				MODULEMAP_FILE = module.modulemap;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = ("","-lm","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dmtx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2B895C9C85864369816FFA8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (arm64,x86_64);
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 0.7.7;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = C;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",dmtx_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/dmtx.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				MODULEMAP_FILE = module.modulemap;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = ("","-lm","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dmtx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2FAC342FEC4C43AFBE835BD2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (arm64,x86_64);
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 0.7.7;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = C;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",dmtx_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/dmtx.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				MODULEMAP_FILE = module.modulemap;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = ("","-lm","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dmtx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		45D6E1588EBE4BAF8C3F8EC1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5A7865D4D96B4B04AB2A2371 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/build;
+			};
+			name = MinSizeRel;
+		};
+		706B48F11D1D4A3690F5FCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		78F0EE727FF44B90A7584BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/build;
+			};
+			name = Debug;
+		};
+		84A8B3AA14674C489D82DBD3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/build;
+			};
+			name = RelWithDebInfo;
+		};
+		9FFC7EA9EFFA4E1CA40C281E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A7FAA2AC13204320BCB18D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C5714D430B0D4AE7A842F885 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C6106BDFAECD4427AEEA9F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D173C2948DA04A05B8D85F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (arm64,x86_64);
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 0.7.7;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = C;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",dmtx_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/CMakeFiles/dmtx.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				MODULEMAP_FILE = module.modulemap;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = ("","-lm","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dmtx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D5E82B22EE3D4866B1BC2417 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D5E832E060614FBDA7F06CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds/build;
+			};
+			name = Release;
+		};
+		E258C86CF0474B7A84EC4321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F9931580D10D4E8EBFA9AAB8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FA1E682A50DE4FA0819444CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FD55E758D71D40328A5540DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/akor/Work/E8/git_repos/libdmtx/AppleBuild/_builds;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1B729B09C7401FA6D4BE3E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6106BDFAECD4427AEEA9F88 /* Debug */,
+				FD55E758D71D40328A5540DB /* Release */,
+				00DD973DC81B4B2EBE88B93F /* MinSizeRel */,
+				C5714D430B0D4AE7A842F885 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2200CA43053C4D28BBDF0C77 /* Build configuration list for PBXNativeTarget "dmtx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D173C2948DA04A05B8D85F0D /* Debug */,
+				2989F1614B274BDABE4FE728 /* Release */,
+				2B895C9C85864369816FFA8B /* MinSizeRel */,
+				2FAC342FEC4C43AFBE835BD2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		81B563BC60284D62A4799702 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFC7EA9EFFA4E1CA40C281E /* Debug */,
+				E258C86CF0474B7A84EC4321 /* Release */,
+				D5E82B22EE3D4866B1BC2417 /* MinSizeRel */,
+				45D6E1588EBE4BAF8C3F8EC1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87BC1E1468244982BB73E983 /* Build configuration list for PBXProject "DMTX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F0EE727FF44B90A7584BD2 /* Debug */,
+				D5E832E060614FBDA7F06CFE /* Release */,
+				5A7865D4D96B4B04AB2A2371 /* MinSizeRel */,
+				84A8B3AA14674C489D82DBD3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E646CD6983684CEC8EBEA3CF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FAA2AC13204320BCB18D68 /* Debug */,
+				706B48F11D1D4A3690F5FCF9 /* Release */,
+				FA1E682A50DE4FA0819444CC /* MinSizeRel */,
+				F9931580D10D4E8EBFA9AAB8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2152DDDBFDE4F4D95E89EF2 /* Project object */;
+}

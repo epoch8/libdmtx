@@ -1,0 +1,36 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ x86_64-ios-simulator, arm64-ios-simulator ]
+flags:           [ not_app_extension_safe ]
+install-name:    '@rpath/dmtx.framework/dmtx'
+current-version: 0.7.7
+compatibility-version: 0
+exports:
+  - targets:         [ x86_64-ios-simulator, arm64-ios-simulator ]
+    symbols:         [ _dmtxByteListBuild, _dmtxByteListClear, _dmtxByteListCopy, 
+                       _dmtxByteListHasCapacity, _dmtxByteListInit, _dmtxByteListPop, 
+                       _dmtxByteListPrint, _dmtxByteListPush, _dmtxDecodeCreate, 
+                       _dmtxDecodeCreateDiagnostic, _dmtxDecodeDestroy, _dmtxDecodeGetCache, 
+                       _dmtxDecodeGetPixelValue, _dmtxDecodeGetProp, _dmtxDecodeMatrixRegion, 
+                       _dmtxDecodeMosaicRegion, _dmtxDecodePopulatedArray, _dmtxDecodeSetProp, 
+                       _dmtxDistanceAlongRay2, _dmtxDistanceFromRay2, _dmtxEncodeCreate, 
+                       _dmtxEncodeDataMatrix, _dmtxEncodeDataMosaic, _dmtxEncodeDestroy, 
+                       _dmtxEncodeGetProp, _dmtxEncodeSetProp, _dmtxGetBlockDataSize, 
+                       _dmtxGetSymbolAttribute, _dmtxImageContainsFloat, _dmtxImageContainsInt, 
+                       _dmtxImageCreate, _dmtxImageDestroy, _dmtxImageGetByteOffset, 
+                       _dmtxImageGetPixelValue, _dmtxImageGetProp, _dmtxImageSetChannel, 
+                       _dmtxImageSetPixelValue, _dmtxImageSetProp, _dmtxMatrix3Copy, 
+                       _dmtxMatrix3Identity, _dmtxMatrix3LineSkewSide, _dmtxMatrix3LineSkewSideInv, 
+                       _dmtxMatrix3LineSkewTop, _dmtxMatrix3LineSkewTopInv, _dmtxMatrix3Multiply, 
+                       _dmtxMatrix3MultiplyBy, _dmtxMatrix3Print, _dmtxMatrix3Rotate, 
+                       _dmtxMatrix3Scale, _dmtxMatrix3Shear, _dmtxMatrix3Translate, 
+                       _dmtxMatrix3VMultiply, _dmtxMatrix3VMultiplyBy, _dmtxMessageCreate, 
+                       _dmtxMessageDestroy, _dmtxPointAlongRay2, _dmtxRay2Intersect, 
+                       _dmtxRegionCreate, _dmtxRegionDestroy, _dmtxRegionFindNext, 
+                       _dmtxRegionScanPixel, _dmtxRegionUpdateCorners, _dmtxRegionUpdateXfrms, 
+                       _dmtxSymbolModuleStatus, _dmtxTimeAdd, _dmtxTimeExceeded, 
+                       _dmtxTimeNow, _dmtxVector2Add, _dmtxVector2AddTo, _dmtxVector2Cross, 
+                       _dmtxVector2Dot, _dmtxVector2Mag, _dmtxVector2Norm, _dmtxVector2Scale, 
+                       _dmtxVector2ScaleBy, _dmtxVector2Sub, _dmtxVector2SubFrom, 
+                       _dmtxVersion, _getSizeIdxFromSymbolDimension ]
+...
