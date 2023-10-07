@@ -1,0 +1,23 @@
+sudo rm -r  v8/
+sudo rm -r  v7/
+sudo rm -r  release/
+
+mkdir v8/
+mkdir v7/
+mkdir release/
+
+cd release/
+
+cmake .. -DCMAKE_TOOLCHAIN_FILE=/home/pixml/Android/Sdk/ndk-bundle/android-ndk-r26/android-ndk-r26/build/cmake/android.toolchain.cmake -DANDROID_ABI=arm64-v8a -DANDROID_NATIVE_API_LEVEL=21
+make -j 16
+sudo make install
+
+sudo cp /usr/local/lib/libdmtx.so ../v8/
+
+sudo rm -r *
+
+cmake .. -DCMAKE_TOOLCHAIN_FILE=/home/pixml/Android/Sdk/ndk-bundle/android-ndk-r26/android-ndk-r26/build/cmake/android.toolchain.cmake -DANDROID_ABI=armeabi-v7a -DANDROID_NATIVE_API_LEVEL=21
+make -j 16
+sudo make install
+
+sudo cp /usr/local/lib/libdmtx.so ../v7/
