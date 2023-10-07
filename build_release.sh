@@ -1,9 +1,13 @@
 sudo rm -r  v8/
 sudo rm -r  v7/
+sudo rm -r  x86/
+sudo rm -r  x86_64/
 sudo rm -r  release/
 
 mkdir v8/
 mkdir v7/
+mkdir x86/
+mkdir x86_64/
 mkdir release/
 
 cd release/
@@ -21,3 +25,17 @@ make -j 16
 sudo make install
 
 sudo cp /usr/local/lib/libdmtx.so ../v7/
+
+cmake .. -DCMAKE_TOOLCHAIN_FILE=/home/pixml/Android/Sdk/ndk-bundle/android-ndk-r26/android-ndk-r26/build/cmake/android.toolchain.cmake -DANDROID_ABI=x86 -DANDROID_NATIVE_API_LEVEL=21
+make -j 16
+sudo make install
+
+sudo cp /usr/local/lib/libdmtx.so ../x86/
+
+sudo rm -r *
+
+cmake .. -DCMAKE_TOOLCHAIN_FILE=/home/pixml/Android/Sdk/ndk-bundle/android-ndk-r26/android-ndk-r26/build/cmake/android.toolchain.cmake -DANDROID_ABI=x86_64 -DANDROID_NATIVE_API_LEVEL=21
+make -j 16
+sudo make install
+
+sudo cp /usr/local/lib/libdmtx.so ../x86_64/
